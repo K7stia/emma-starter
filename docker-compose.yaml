@@ -23,7 +23,7 @@ services:
             - SLIPPAGE=1
             - SOLANA_RPC_URL=https://api.mainnet-beta.solana.com
             - HELIUS_API_KEY=
-            - SERVER_PORT=3000
+            - SERVER_PORT=10000
         ports:
-            - "3000:3000"
+            - "3000:10000"
         restart: always
