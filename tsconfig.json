@@ -4,7 +4,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "lib": ["ESNext", "dom"],
-    "moduleResolution": "Bundler",
+    "moduleResolution": "node16",
     "outDir": "./dist",
     "rootDir": ".",
     "strict": false,
